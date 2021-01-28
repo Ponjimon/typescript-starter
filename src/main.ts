@@ -24,7 +24,7 @@ async function bootstrap() {
   const data = await res.json();
   console.log('');
   console.log(
-    '`user` property is returned as unexpectedly returned as null with @nestjs/graphql:',
+    '`user` property is unexpectedly returned as null with @nestjs/graphql:',
   );
   console.log(
     JSON.stringify({
